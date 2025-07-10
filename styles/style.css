@@ -79,10 +79,13 @@ main.container{
     padding: 116px 160px 116px 140px;
 }
 
+/* ============= Main - Action Area ==========================*/
+
 .action-area{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 116px;
 }
 
 .action-content h2{
@@ -105,4 +108,43 @@ main.container{
 
 .action-image img{
     border-radius: 30px;
+}
+
+/*===================== productive-users ======================*/
+
+.productive-users{
+    background-color: #e4e6ff;
+    border-radius: 20px;
+    padding: 50px 142px;
+}
+
+.productive-users h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: #252432;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 40px;
+}
+
+.productivity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.single-productivity{
+    text-align: center;
+}
+
+.single-productivity h1{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+}
+
+.single-productivity p{
+    font-size: 20px;
+    color: #727480;
 }
