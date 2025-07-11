@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+img{
+    object-fit: cover;
+}
+
 body{}
 
 /* ============= Header - Navbar ==========================*/
@@ -208,6 +212,10 @@ main.container{
     color: #727480;
 }
 
+.photo img{
+    border-radius: 50%;    
+}
+
 /*=====================Focus Area=========================*/
 
 .ready-to-focus{
@@ -238,4 +246,69 @@ main.container{
 .wc-bg img{
     margin-top: 20px;
     border-radius: 30px;
+}
+
+/*===================== get-in-touch area ======================*/
+
+.get-in-touch{
+    padding-top: 92px;
+}
+
+.get-in-touch-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content{}
+
+.left-content h1{
+    font-size: 97px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;     
+}
+
+input{
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #d6dded;
+    border-radius: 10px;
+}
+
+
+textarea{
+    padding: 10px;
+    border: 1px solid #d6dded;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="button"]{
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    background-color: green;
+    color: yellow;
+    transition: .7s;
+}
+
+label{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
 }
