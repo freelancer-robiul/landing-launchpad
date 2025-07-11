@@ -280,6 +280,9 @@ input{
     padding: 15px;
     border: 1px solid #d6dded;
     border-radius: 10px;
+    margin-bottom: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
 }
 
 
@@ -288,7 +291,9 @@ textarea{
     border: 1px solid #d6dded;
     text-align: left;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
 }
 
 input[type="button"]{
@@ -311,4 +316,52 @@ label{
     color: #000000;
     font-weight: 500;
     font-family: "Inter", sans-serif;
+}
+
+/*================== Footer Area =====================*/
+
+.footer-logo{
+    padding: 104px 400px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-logo h1{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.footer-logo p{
+    font-size: 18px;
+    color: #8987a1;
+}
+
+.footer-menu{
+    margin-top: 50px;
+    padding: 0px 200px;
+}
+
+.footer-logo ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo ul li{
+    list-style: none;
+}
+
+.footer-logo ul li a{
+    text-decoration: none;
+    color: #8987a1;
+}
+
+.footer-logo ul li a:hover{
+    color: green;
+    border-bottom: 1px solid red;
+    transition: .7s;
 }
